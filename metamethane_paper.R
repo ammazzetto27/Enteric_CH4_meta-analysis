@@ -1,5 +1,4 @@
-
-methane <- read.csv("methane_v2.csv")
+methane <- read.csv("database_CH4.csv")
 
 ##for later random effects model
 methane$experiment <- as.factor(1:nrow(methane))
